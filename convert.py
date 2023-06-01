@@ -13,8 +13,9 @@ def get_audio_files():
                     comments += comment.text + '\n'
             audio_files.append({
                 'title': audio_file.tag.title,
-                'comments': comments
+                'comments': comments,
+                'filename': '/audio/' + file
             })
     return audio_files
 
-print(yaml.dump(get_audio_files()))
+print(yaml.dump(get_audio_files(), sort_keys=False))
