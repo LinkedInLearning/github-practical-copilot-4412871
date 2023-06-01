@@ -1,6 +1,7 @@
 import os
 import yaml
 import eyed3
+import time
 
 def get_audio_files():
     audio_files = []
@@ -11,11 +12,18 @@ def get_audio_files():
             if audio_file.tag.comments:
                 for comment in audio_file.tag.comments:
                     comments += comment.text + '\n'
+            duration = time.strftime('%H:%M:%S', time.gmtime(audio_file.info.time_secs))
             audio_files.append({
                 'title': audio_file.tag.title,
                 'comments': comments,
-                'filename': '/audio/' + file
+                'filename': '/audio/' + file,
+                'duration': duration
             })
     return audio_files
 
-print(yaml.dump(get_audio_files(), sort_keys=False))
+def convert_to_yaml():
+    data = get_audio_files()
+    yaml_data = yaml.dump(data, sort_keys=False)
+    return yaml_data
+
+print(convert_to_yaml())
