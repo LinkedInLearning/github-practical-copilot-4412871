@@ -1,9 +1,10 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Practical GitHub Copilot
+This is the repository for the LinkedIn Learning course Practical GitHub Copilot. The full course is available from [LinkedIn Learning][lil-course-url].
 
-![course-name-alt-text][lil-thumbnail-url] 
+![Practical GitHub Copilot][lil-thumbnail-url] 
 
-_See the readme file in the main branch for updated instructions and information._
+Copilot–a paid service from GitHub–is revolutionizing the way code is written. According to reports from developers who use it, a vast majority feel more productive and can perform repetitive tasks almost twice as fast. If you're interested in learning how to solve problems with Copilot and become a more efficient developer, join instructor Ray Villalobos in this hands-on course as he shows you not just how to use Copilot to find the best solutions to concrete code problems, but how to make it work best in specific contexts. From setup to navigating the tools to refining the results, Ray demonstrates the practical applications of Copilot’s powerful features.
+
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
@@ -29,8 +30,15 @@ To resolve this issue:
 3. [Course-specific instructions]
 
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+### Instructor
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+Ray Villalobos 
+                            
+Author, Multimedia Developer
 
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ray-villalobos).
+
+[lil-course-url]: https://www.linkedin.com/learning/practical-github-copilot?dApp=59033956&leis=LAA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQEVYkOcM5jKsQ/learning-public-crop_288_512/0/1686860280439?e=2147483647&v=beta&t=OQFBTMq5-PXArFGiBAIus3OK_EPIP1pKho5jLCXHJiI
